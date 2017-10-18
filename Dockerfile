@@ -1,7 +1,7 @@
 FROM ubuntu
 
 RUN apt-get update && \
-	apt-get install software-properties-common
+	apt-get install -y software-properties-common
 
 WORKDIR /data
 
